@@ -1,0 +1,441 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Ten Sports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+  <style>
+    .top-nav{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      right: 0px;
+      border: 2px solid green;
+      background-color: green;
+      color: white;
+      width: 100%;
+      height: 90px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+      span{
+        width: 80px;
+        font: size 30px; 
+        padding: 21px;
+        word-spacing: normal;
+        margin: left 30px; 
+      }
+      .icons{
+        float: right;
+        margin-right: 30px;
+        font-size: 20px;
+
+      }
+      .navbar{
+        background-color: white;
+        width: 100%;
+      
+      }
+
+      .navbar ul{
+        font-family:'Courier New', Courier, monospace ;
+        font-size: large;
+        display: flex;
+        flex-direction: row;justify-content: space-around;
+        text-align: center;
+      }
+      .navbar ul a:hover{
+        color: blue;
+        text-decoration: underline;
+
+      }
+      .navbar ul i{
+        background-color: #fff;
+        border: 2px solid white;
+      }
+      /* 
+      img{
+        margin: 5%;
+        width: auto;
+        height: 380px;
+
+      } */
+      .bold{
+        color: black;
+        border: 3px ;
+      }
+      h1{
+        font-size: 30px;font-family: 'Times New Roman', Times, serif;
+      }
+      /* .grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 2fr;
+
+      } */
+
+    /* body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin:0%;
+      padding: 0%;
+    }
+    header{
+      background-color: blue;
+      color: beige;
+      padding: 10px 20px;
+      text-align: left;
+    }
+    nav{
+      background-color: chocolate;
+      color:blue;
+      padding: 10px 20px;
+      text-align: left;
+    }
+    nav ul{ */
+      /* list-style-type:none ;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li{
+      display: inline;
+      margin-right:20px ;
+    }
+    nav ul li a{
+      color: #fff;
+      text-decoration: none;
+    } 
+    .container{
+      margin: 20px;
+      text-align: center;
+    }
+    .container image{
+      width: 100px;
+      height: auto;
+    } */
+  </style>
+  <body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+     <section id="Header">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+
+
+        <div class="container-fluid" style="background-color:rgba(0, 0, 255, 0.712);; width: 100% ; height: 100%;";
+           <h1 style="color: #fff; font-weight: 300;">
+            <b style="color: #fff; font-weight: 200;">TEN SPORTS TV</b>
+
+           </h1>
+           <a class="navbar-brand" href="javascript:void(0)" style="font-weight: 100; color: #fff;"></a> 
+         
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+
+            
+
+             
+              
+          
+              <li  class="nav-item" style="color: #fff;"><br>
+                <a  class="nav-link" href="javascript:void(0) "><b style="color: #fff;">Home</b></a><br>
+              </li>
+              <li class="nav-item" style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">News</b></a><br>
+              </li>
+              <li class="nav-item" style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">Latest</b></a><br>
+              </li>
+              <li class="nav-item"style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">Cricket Worldcup</b></a><br>
+              </li>
+              <li class="nav-item" style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">Cricket</b></a><br>
+              </li>
+              <li class="nav-item"style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">Football</b></a><br>
+              </li>
+              <li class="nav-item" style="color:#fff;"><br>
+                <a class="nav-link" href="javascript:void(0)"><b style="color: #fff;">Live</b></a><br>
+              </li>
+            
+         </div>
+
+    
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="text"
+                placeholder="Search"
+              />
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-8">
+          <h3>Welcome to Ten Sport</h3>
+          <!-- <b>Sports Live </b><br>
+            Chris Michael<br>
+            BY<br>
+            CHRIS MICHAEL
+            MAY 8, 2021
+             
+            Updated: November 10, 2023</p> -->
+            <!-- <h2>Ten Sports Live. Watch Ten Sports Live Streaming.</h2> -->
+            
+<img src="https://th.bing.com/th/id/OIF.DNffA3iuigoaxnNwjLpz5Q?w=249&h=180&c=7&r=0&o=5&pid=1.7" style=" margin-left: 30%; width: 60%;" alt="#"><br><br>
+<h2>Ten Sports Live. Watch Ten Sports Live Streaming.</h2>
+</div>
+        <div class="col-lg-4">
+          <h3>Latest News</h3>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Title of the News</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+
+            </div>
+          </div>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/OIP.KPaLKXFxOUfkltHZkvIynAHaFj?w=231&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th?q=Babar+Azam+Wallpaper+4K&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=PK&setlang=en&adlt=moderate&t=1&mw=247" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <!-- <nav class="navbar">
+            <div class="navbar-left">
+                <img src="ten_sports_logo.png" alt="Ten Sports Logo">
+            </div>
+            <div class="navbar-right">
+                <a href="#"><img src="twitter_logo.png" alt="Twitter"></a>
+                <a href="#"><img src="facebook_logo.png" alt="Facebook"></a>
+                <a href="#"><img src="google_logo.png" alt="Google"></a>
+            </div>
+        </nav> -->
+        </div>
+      </div>
+    </div>
+    <img src="https://www.tensportstv.com/wp-content/uploads/2024/04/970x250-2.png " style=" margin-left: 5%; width: 50%; height: 40%;" alt="#"><br><br>
+    
+    <h5>Ten Sports is the number one choice of viewers for best sports action in Pakistan. </h5>
+    <h5>We offer best cricket action including world class events from International </h5>
+    <h5>Cricket Council, Asian Cricket Council, Pakistan Cricket Board, Sri Lanka Cricket Board, Cricket South Africa, </h5>
+      <h5>West Indies & Zimbabwe Cricket boards. Our unmatched non-cricket programming includes World Wrestling Entertainment programming such as RAW, SMACKDOWN & monthly PPV events; US Open ∓ ATP Tennis Tournaments, Ryder Cup, Moto GP, UEFA Champions League, UEFA Europa League, Spanish Super Cup, UEFA Super Cup, Capital One Cup & PGA Championships and the best club football programming.</h5>
+    <!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-primary">
+          <i class="fab fa-facebook-f"></i> Facebook
+        </button>
+        <button class="btn btn-info">
+          <i class="fab fa-twitter"></i> Twitter
+        </button>
+        <button class="btn btn-danger">
+          <i class="fab fa-instagram"></i> Instagram
+        </button>
+        <button class="btn btn-danger">
+          <i class="fab fa-whatsapp"></i> Whatsapp
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <table class="table table-bordered" style="width: 60%;">
+          <thead>
+            <tr>
+              <th scope="col">Discover Related Topics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Crickspo</td>
+            </tr>
+            <tr>
+              <td>Crictime Alternative</td>
+            </tr>
+            <tr>
+              <td>This That</td>
+            </tr>
+            <tr>
+              <td>Live match</td>
+            </tr>
+            <tr>
+              <td>Live Streaming</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+  
+
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+    
+    
+    
+  
+    <footer class="bg-dark text-white text-center py-3">
+      <!-- <p>Ten Sports Live. Watch Live Ten Sports Streaming. Watch Ten Sports Live TV HD Streaming Online. Live Cricket Matches Streaming.
+        Live Ten Sports Streaming.</p> -->
+    </footer>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+
+
+      <div class="container-fluid" style="background-color:rgba(0, 0, 255, 0.712); width: 100% ; height: 100%;";
+         <h1 style="color:white; font-weight: 300%;">
+          <b style="color: #fff;">TEN SPORTS TV</b>
+         </h1>
+         <a class="navbar-brand" href="javascript:void(0)" style="font-weight: 100; color:white;"></a> <br><br>
+       
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        
+        >
+          <span  class ="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto ">
+
+          
+
+           
+            
+        
+            <li  class="nav-item" style="color:#fff; width: 200%; " >
+              <a  class="nav-link" href="javascript:void(0)" style="margin-top: 30%; margin-right: 5%; "> <b style="color: #fff;">Home</b></a>
+
+            </li>
+            <li class="nav-item" style="color:#fff; width: 200%;">
+              <a class="nav-link" href="javascript:void(0)"style="margin-top: 30%; margin-right: 15%;"><b style="color: #fff;">About Us</b></a>
+            </li>
+            <li class="nav-item" style="color:#fff; width: 200%;">
+              <a class="nav-link" href="javascript:void(0)"style="margin-top: 30%;margin-right: 15%;"><b style="color: #fff;">Contact Us</b></a>
+            </li>
+            <li class="nav-item"style="color:#fff; width: 200%;">
+              <a class="nav-link" href="javascript:void(0)"style="margin-top: 30%; margin-right: 15%;"><b style="color: #fff;">Disclamir</b></a>
+            </li>
+            <li class="nav-item" style="color:#fff; width: 200%;">
+              <a class="nav-link" href="javascript:void(0)"style="margin-top: 30%; margin-right: 15%;"><b style="color: #fff;">Privacy</b></a>
+            </li>
+            
+            <li class="nav-item" style="color:#fff; width: 200%;">
+              <a class="nav-link" href="javascript:void(0)"style="margin-top: 30%; margin-right: 15%;"><b style="color: #fff;">Our Team</b></a>
+            </li>
+            
+          
+       </div>
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Icons</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    .icons{
+      color: #fff;
+    }
+      
+    
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <!-- Facebook Icon -->
+      <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none text-dark mr-3">
+        <i class="fab fa-facebook-f fa-lg" style="color: white;"></i>
+      </a>
+      <!-- WhatsApp Icon -->
+      <a href="https://wa.me/1234567890" target="_blank" class="text-decoration-none text-dark mr-3">
+        <i class="fab fa-whatsapp fa-lg" style="color: #fff;"></i>
+      </a>
+      <!-- Twitter Icon -->
+      <a href="https://twitter.com/" target="_blank" class="text-decoration-none text-dark">
+        <i class="fab fa-twitter fa-lg" style="color: #fff;"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+</body>
+</html>
+
+       
+
+    
+    <script src="./js/bootstrap.min.js"></script>
+    </section>
+
+  
+  </body>
+</html> 
+
